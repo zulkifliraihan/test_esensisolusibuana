@@ -70,14 +70,13 @@ class InvoiceRepository implements InvoiceRepositoryInterface {
     {
         $invoice = $this->invoiceItem->create($data);
 
-
         return $invoice;
     }
 
     public function detail($id): ?object
     {
         $invoice = $this->invoice->with('item.item.type', 'customer')->find($id);
-        // dd($invoice);    
+
         return $invoice;
     }
 
