@@ -1,0 +1,9 @@
+- Postman Collection :
+  https://api.postman.com/collections/15607869-2f4470c7-213b-4717-8f0b-5a1ea4f64150?access_key=PMAT-01H1A56BN2NA1VDD0AFGD6WQHB
+
+HOW RUN THIS PROJECT?
+- CREATE DATABASE MYSQL
+- COPY .env.example TO .env
+- CHANGE DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD
+- RUN "php artisan migrate --seed"
+- RUN "php artisan serve"
