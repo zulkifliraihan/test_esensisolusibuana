@@ -3,6 +3,7 @@
 
 HOW RUN THIS PROJECT?
 - CREATE DATABASE MYSQL
+- DON'T FORGET TO INSTALL "composer install"
 - COPY .env.example TO .env
 - CHANGE DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD
 - RUN "php artisan migrate --seed"
